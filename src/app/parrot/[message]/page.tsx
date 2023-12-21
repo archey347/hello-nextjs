@@ -5,6 +5,9 @@ export default function Home({ params } : { params: { message: string }}) {
       <p>
         You said: {params.message}
       </p>
+      <p>
+        <i>This is an example of a dynamic route.</i>
+      </p>
     </main>
   )
 }
